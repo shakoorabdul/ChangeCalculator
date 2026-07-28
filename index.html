@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="calculate_change.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Change Calculator</h1>
+
+        <div class="input-row">
+            <label for="cents">Enter amount of change due (0-99):</label>
+            <input type="text" id="cents">
+            <input type="button" id="calculate" value="Calculate">
+        </div>
+
+        <div class="results-container">
+            <div class="row">
+                <label for="quarters">Quarters:</label>
+                <input type="text" id="quarters" disabled>
+            </div>
+
+            <div class="row">
+                <label for="dimes">Dimes:</label>
+                <input type="text" id="dimes" disabled>
+            </div>
+
+            <div class="row">
+                <label for="nickels">Nickels:</label>
+                <input type="text" id="nickels" disabled>
+            </div>
+
+            <div class="row">
+                <label for="pennies">Pennies:</label>
+                <input type="text" id="pennies" disabled>
+            </div>
+        </div>
+    </main>
+
+    <!-- Requirement 5: Student info footer format -->
+    <footer>
+        <p>&copy; Abdul Shakoor (N10009278) 2026</p>
+    </footer>
+</body>
+</html>

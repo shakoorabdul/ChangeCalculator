@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    color: #000;
+}
+
+h1 {
+    color: #0000D0; /* Blue heading matching the screenshot */
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+main {
+    width: 500px;
+}
+
+.input-row {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.input-row label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+#cents {
+    width: 200px;
+    padding: 3px;
+    font-size: 14px;
+    border: 1px solid #7f9db9;
+    border-radius: 2px;
+    margin-right: 15px;
+}
+
+input[type="button"] {
+    padding: 3px 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.results-container {
+    margin-left: 100px; /* Indents the output list to align with the design */
+}
+
+.row {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.row label {
+    width: 80px;
+    text-align: right;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.row input[type="text"] {
+    width: 180px;
+    padding: 3px;
+    font-size: 14px;
+    border: 1px solid #7f9db9;
+    border-radius: 2px;
+}
+
+/* Styled gray disabled boxes */
+input[type="text"]:disabled {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+footer {
+    margin-top: 35px;
+    font-size: 13px;
+}
