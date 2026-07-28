@@ -1,9 +1,9 @@
 "use strict";
 
-// Requirement 1: Helper function to get an element by CSS selector
+// Helper function to get an element by CSS selector
 const $ = selector => document.querySelector(selector);
 
-// Requirement 3: Calculates coin values using integer division and modulus
+// Calculates coin values using integer division and modulus
 const makeChange = (cents) => {
     // Calculate Quarters (25 cents)
     const quarters = parseInt(cents / 25);
@@ -26,7 +26,7 @@ const makeChange = (cents) => {
     $("#pennies").value = pennies;
 };
 
-// Requirement 2: Validates user input and triggers calculation
+// Validates user input and triggers calculation
 const processEntry = () => {
     const cents = parseInt($("#cents").value);
 
@@ -39,7 +39,7 @@ const processEntry = () => {
     }
 };
 
-// Requirement 4: DOMContentLoaded event listener setup
+// DOMContentLoaded event listener setup
 document.addEventListener("DOMContentLoaded", () => {
     // Attach click handler to the Calculate button
     $("#calculate").addEventListener("click", processEntry);
